@@ -11,21 +11,25 @@
     header {
         font-size: 25px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        height: 500px;
+        height: 900px;
         color: crimson;
         padding-right: 100px;
+        margin-left: 125px;
     }
     
     body {
         background-image: url('images/Malazan-Reading-Order-Map.png');
         /* background-image: linear-gradient(#222, #333, #444); */
         display: grid;
+        justify-content: center;
+        align-items: center;
         grid-template-columns: 1fr 1fr;
         grid-gap: 15px;
         color: white;
     }
     
     img {
+        margin-left: 125px;
         height: 200px;
         width: 200px;
         border-radius: 15px;
@@ -44,15 +48,19 @@
     a {
         list-style-type: none;
     }
+    
+    footer {
+        text-align: center;
+    }
 </style>
-<header>
+<header style="margin-top: 100px;">
     This is a small document that is the start of the World Building I am attempting to create by following a great read through and re-imagining of "Gardens of the Moon" by Steven Erikson. To the right and below are some of the interesting characters that
     you'll meet and an overview of the vast empire that we'll be discovering with Christine Vallestad while we tune into her ever growing channel at
     <a href="https://www.youtube.com/channel/UCzk4kyD85gtFmjBl8wD1RiQ"></a> also I have added a funding button that you mey feel free to accelerate OUR journey TOGETHER!
 </header>
 
 <body>
-    <img src="images/tatter-sail.jpeg">
+    <a href="tattersail.html"><img src="images/tatter-sail.jpeg"></a>
     <img src="images/Adjunct-tavore-paran.jpg">
     <img src="images/raest-the-tyrant.jpeg">
     <img src="images/Bauchelain-the-summoner.jpeg">
@@ -71,11 +79,11 @@
     <img src="images/silver-fox.jpeg">
 
     <img src="images/tool.jpeg">
-
-    <button><a href="https://gofund.me/b2b2c49b">Fund this Journey through the Empire of the Malazan</a></button>
-
+    <footer>
+        <button><a href="https://gofund.me/b2b2c49b">Fund this Journey through the Empire of the Malazan</a></button>
+    </footer>
     <p>Made with &lt;3 by <a href="">Jason Nutt</a></p>
-    </div>
+
     <script src="js/app.js"></script>
 </body>
 
