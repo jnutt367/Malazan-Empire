@@ -11,8 +11,8 @@
     header {
         font-size: 25px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        height: 900px;
-        color: crimson;
+        height: 500px;
+        color: green;
         padding-right: 100px;
         margin-left: 125px;
     }
@@ -23,7 +23,7 @@
         display: grid;
         justify-content: center;
         align-items: center;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-gap: 15px;
         color: white;
     }
@@ -59,12 +59,32 @@
         font-size: 25px;
         padding-right: 25px;
     }
+    
+    a {
+        color: green;
+        text-decoration: aqua;
+    }
+    
+    .description {
+        padding-left: 20px;
+    }
 </style>
 
 <body>
+    <header>
+        <h1>Character Sheet</h1>
+        <p>Stength: __</p>
+        <p>Dexterity: __</p>
+        <p>Charisma: __</p>
+        <p>Constitution: __</p>
+        <p>Intelligence: __</p>
+        <p>Wisdom: __</p>
+    </header>
     <div class="flex-card">
         <h1>Tattersail</h1>
-        <img src="images/tatter-sail.jpeg">
+        <h2>
+            <a href="index.html">Home Page</h2></a>
+            <img src="images/tatter-sail.jpeg">
     </div>
 
     <div class="description">
